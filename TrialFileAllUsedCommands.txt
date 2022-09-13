@@ -1,0 +1,57 @@
+D:
+cd git
+cd Trial
+*git init  (hidden file will be added in  trial folder)
+*git clone https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation.git
+*D:\Git\Trial>ls
+*D:\Git\Trial>cd The-Complete-FAANG-Preparation
+*D:\Git\Trial\The-Complete-FAANG-Preparation>ls
+*D:\Git\Trial\The-Complete-FAANG-Preparation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+*D:\Git\Trial\The-Complete-FAANG-Preparation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   CODE_OF_CONDUCT.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+*D:\Git\Trial\The-Complete-FAANG-Preparation>git diff CODE_OF_CONDUCT.md
+diff --git a/CODE_OF_CONDUCT.md b/CODE_OF_CONDUCT.md
+index 91a55ff..e43c29e 100644
+--- a/CODE_OF_CONDUCT.md
++++ b/CODE_OF_CONDUCT.md
+@@ -1,4 +1,4 @@
+-# Contributor Covenant Code of Conduct
++# Contributor Co
+
+*D:\Git\Trial\The-Complete-FAANG-Preparation>git add CODE_OF_CONDUCT.md
+
+*D:\Git\Trial\The-Complete-FAANG-Preparation>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   CODE_OF_CONDUCT.md
+
+
+*git log =>It will show all the changes done so far in the project.
+
+*git show commit id; =>it will show all the changes done in that commit.
+
+*git branch =>it will show current branch.
+
+
+*to link local repo with remote repo : git remote <linkof remote repo>
+
+*to push all files committed to remote repo : git push -u origin <branch name>
+
