@@ -1,3 +1,12 @@
+.git what it contains?
+mobile applications for git ntifications etc?
+what is red token in github?
+
+FACt : more than 90 percents of the software projects use git
+
+git is SCM( source code mangement) s/w,  distributed version control system Git
+github is a cloud based hosting service owened by microsoft
+
 D:
 cd git
 cd Trial
@@ -55,3 +64,36 @@ Changes to be committed:
 
 *to push all files committed to remote repo : git push -u origin <branch name>
 
+NOTE : git remote add origin <url>
+	here origin is just a nickname to remote repository
+	it's just a standard practice to call/name it origin
+	it could be anything e.g
+	git remote add ora <url>
+	then we'lll use:
+	git push -u ora master
+-------------------------------------------------------------------------------------------
+
+git remote remove origin;
+//it will remove the origin (the remote)
+
+---
+git diff --staged
+
+
+
+---------------------------------------------------------------------------------------------
+
+forward rerference problem:
+	git push -f origin master
+
+error discription: 
+	git push -u origin master
+	To https://github.com/Shruti2906/SQL.git
+	 ! [rejected]        master -> master (non-fast-forward)
+	hint: Updates were rejected because the tip of your current 	branch is behind
+	hint: its remote counterpart. Integrate the remote changes (e.g.
+	hint: 'git pull ...') before pushing again.
+	hint: See the 'Note about fast-forwards' in 'git push --help' 	for details.
+
+
+-----------------------------------------------------------------------------------
