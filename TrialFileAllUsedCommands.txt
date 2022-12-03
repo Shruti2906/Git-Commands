@@ -64,6 +64,7 @@ Changes to be committed:
 
 *to push all files committed to remote repo : git push -u origin <branch name>
 
+<<<<<<< HEAD
 NOTE : git remote add origin <url>
 	here origin is just a nickname to remote repository
 	it's just a standard practice to call/name it origin
@@ -97,3 +98,12 @@ error discription:
 
 
 -----------------------------------------------------------------------------------
+=======
+
+--------git push -u origin mater;
+error : Rejected!
+
+git fetch;
+git merge
+git push -u origin master
+>>>>>>> refs/remotes/ora/master 
